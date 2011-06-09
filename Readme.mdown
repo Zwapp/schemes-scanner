@@ -1,0 +1,16 @@
+Zwapp - One Million Schemes Scanner
+-----------------------------------
+
+This is a very simple MacRuby app which scans your iTunes lib for iOS ipa files (the format which you download iOS apps in) and send some basic app information to Zwapp to process.
+
+In a little bit more detail, the scanner opens the ipa file (its just a zip file), parses the plist data (a kind of xml, kind of), and finds the interesting information (minus personal iTunes account info) and sends it to http://schemes.zwapp.com.
+
+On the server end we extract the app name, store id, and scheme information, and set it free for everyone to use.
+
+I am no MacRuby wiz, so please feel free to fork and fix. Hell, if you just want to open and issue to throw a bit of trolling at me, be my guest :)
+
+But of course, if you have some tips or advice, please let me know.
+
+Enjoy,
+
+Josh (and the Zwapp team)

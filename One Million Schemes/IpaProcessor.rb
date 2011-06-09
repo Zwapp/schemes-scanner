@@ -29,7 +29,7 @@ class IpaProcessor
   def initialize
     @appList  = []
     @failures = []
-    @queue = Dispatch::Queue.concurrent(:high)
+    @queue = Dispatch::Queue.new("zwapp.processing")
   end
   
   def updateApps(&block)

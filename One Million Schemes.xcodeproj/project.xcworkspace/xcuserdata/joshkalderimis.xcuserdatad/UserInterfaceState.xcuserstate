@@ -5321,7 +5321,7 @@
 		<string>IDEWorkspaceTabController_6B3BFEA6-4CBA-4469-88B6-EF0F316F7BE6</string>
 		<string>IDEActiveWorkspaceTabController</string>
 		<string>IDEWindowToolbarIsVisible</string>
-		<string>{{0, 0}, {1680, 1028}}</string>
+		<string>{{2, 0}, {1680, 1028}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -5615,7 +5615,7 @@
 				<integer>394</integer>
 			</dict>
 		</dict>
-		<string>PlistUploader.rb</string>
+		<string>AppDelegate.rb</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -5666,7 +5666,7 @@
 				<integer>102</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/joshkalderimis/Development/Cocoa-Development/Zwapp/One%20Million%20Schemes/One%20Million%20Schemes/PlistUploader.rb</string>
+			<string>file://localhost/Users/joshkalderimis/Development/Cocoa-Development/Zwapp/One%20Million%20Schemes/One%20Million%20Schemes/AppDelegate.rb</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -6332,10 +6332,10 @@
 		<string>PrimaryDocumentVisibleCharacterRange</string>
 		<string>HideAllIssues</string>
 		<string>PrimaryDocumentSelectedCharacterRange</string>
-		<real>329328059.27954203</real>
-		<string>{0, 1322}</string>
-		<string>{580, 0}</string>
-		<string>initialize</string>
+		<real>329331502.89199901</real>
+		<string>{0, 1226}</string>
+		<string>{1301, 0}</string>
+		<string>openSubmissionResults</string>
 		<string>Xcode.IDEKit.EditorDocument.SourceCode</string>
 		<dict>
 			<key>$class</key>
@@ -6354,7 +6354,7 @@
 				<integer>466</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/joshkalderimis/Development/Cocoa-Development/Zwapp/One%20Million%20Schemes/One%20Million%20Schemes/PlistUploader.rb</string>
+		<string>file://localhost/Users/joshkalderimis/Development/Cocoa-Development/Zwapp/One%20Million%20Schemes/One%20Million%20Schemes/AppDelegate.rb</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -7546,7 +7546,7 @@
 		</dict>
 		<string>IDEUtilitiesArea</string>
 		<real>260</real>
-		<string>PlistUploader.rb</string>
+		<string>AppDelegate.rb</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -12738,7 +12738,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>940</integer>
+					<integer>941</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -12987,8 +12987,17 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>400</integer>
+				<integer>940</integer>
 			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>102</integer>
+			</dict>
+			<key>NS.string</key>
+			<string>file://localhost/Users/joshkalderimis/Development/Cocoa-Development/Zwapp/One%20Million%20Schemes/One%20Million%20Schemes/PlistUploader.rb</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -13004,17 +13013,8 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>941</integer>
+				<integer>400</integer>
 			</dict>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>102</integer>
-			</dict>
-			<key>NS.string</key>
-			<string>file://localhost/Users/joshkalderimis/Development/Cocoa-Development/Zwapp/One%20Million%20Schemes/One%20Million%20Schemes/AppDelegate.rb</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -13286,9 +13286,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>329327285.62597901</real>
-		<string>{1383, 1396}</string>
-		<string>{1030, 0}</string>
+		<real>329331290.31523001</real>
+		<string>{156, 1125}</string>
+		<string>{703, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -13477,9 +13477,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>329328059.27743697</real>
-		<string>{0, 1322}</string>
-		<string>{580, 0}</string>
+		<real>329331297.85280597</real>
+		<string>{173, 1478}</string>
+		<string>{416, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -13525,7 +13525,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>329328033.53069699</real>
+		<real>329331502.88899398</real>
 		<string>{0, 1226}</string>
 		<string>{1301, 0}</string>
 		<dict>
@@ -13714,7 +13714,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>329327293.457663</real>
+		<real>329330845.111072</real>
 		<string>{0, 1270}</string>
 		<string>{666, 0}</string>
 		<dict>
@@ -15216,7 +15216,7 @@
 				<integer>1110</integer>
 			</dict>
 			<key>NS.time</key>
-			<real>329327688.96244299</real>
+			<real>329331497.56784898</real>
 		</dict>
 		<dict>
 			<key>$classes</key>
@@ -15227,7 +15227,7 @@
 			<key>$classname</key>
 			<string>NSDate</string>
 		</dict>
-		<string>Today at 5:54 PM</string>
+		<string>Today at 6:58 PM</string>
 		<integer>106</integer>
 		<dict>
 			<key>$class</key>
@@ -15377,7 +15377,7 @@
 				<integer>1123</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/joshkalderimis/Development/Cocoa-Development/Zwapp/One%20Million%20Schemes/One%20Million%20Schemes/PlistUploader.rb</string>
+		<string>file://localhost/Users/joshkalderimis/Development/Cocoa-Development/Zwapp/One%20Million%20Schemes/One%20Million%20Schemes/AppDelegate.rb</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -15395,7 +15395,7 @@
 				<integer>1125</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/joshkalderimis/Development/Cocoa-Development/Zwapp/One%20Million%20Schemes/One%20Million%20Schemes/AppDelegate.rb</string>
+		<string>file://localhost/Users/joshkalderimis/Development/Cocoa-Development/Zwapp/One%20Million%20Schemes/One%20Million%20Schemes/PlistUploader.rb</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -15413,7 +15413,7 @@
 				<integer>1127</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/joshkalderimis/Development/Cocoa-Development/Zwapp/One%20Million%20Schemes/One%20Million%20Schemes/TwitterNameChecker.rb</string>
+		<string>file://localhost/Users/joshkalderimis/Development/Cocoa-Development/Zwapp/One%20Million%20Schemes/One%20Million%20Schemes/IpaProcessor.rb</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -15431,7 +15431,7 @@
 				<integer>1129</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/joshkalderimis/Development/Cocoa-Development/Zwapp/One%20Million%20Schemes/One%20Million%20Schemes/IpaProcessor.rb</string>
+		<string>file://localhost/Users/joshkalderimis/Development/Cocoa-Development/Zwapp/One%20Million%20Schemes/One%20Million%20Schemes/TwitterNameChecker.rb</string>
 		<dict>
 			<key>$class</key>
 			<dict>

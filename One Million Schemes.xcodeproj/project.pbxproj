@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD14445C13683ECE007F615D /* TwitterNameChecker.rb in Resources */ = {isa = PBXBuildFile; fileRef = DD14445B13683ECE007F615D /* TwitterNameChecker.rb */; };
+		DD8701A0139FDF18000940FB /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = DD87019F139FDF18000940FB /* title.png */; };
+		DD9CBD41135EF9A800A00C20 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9CBD40135EF9A800A00C20 /* MacRuby.framework */; };
+		DD9CBD45135EFA4A00A00C20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9CBD44135EFA4A00A00C20 /* Foundation.framework */; };
+		DD9CBD51135F097700A00C20 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9CBD50135F097700A00C20 /* AppKit.framework */; };
+		DD9CBD53135F0D6100A00C20 /* Zwapp_Icons.icns in Resources */ = {isa = PBXBuildFile; fileRef = DD9CBD52135F0D6100A00C20 /* Zwapp_Icons.icns */; };
+		DDCC7A43135D81D5009D099C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDCC7A42135D81D5009D099C /* Cocoa.framework */; };
+		DDCC7A4C135D81D5009D099C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDCC7A4A135D81D5009D099C /* InfoPlist.strings */; };
+		DDCC7A4F135D81D6009D099C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCC7A4E135D81D6009D099C /* main.m */; };
+		DDCC7A53135D81D6009D099C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDCC7A51135D81D6009D099C /* MainMenu.xib */; };
+		DDCC7A56135D81D6009D099C /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = DDCC7A55135D81D6009D099C /* rb_main.rb */; };
+		DDCC7A58135D81D6009D099C /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = DDCC7A57135D81D6009D099C /* AppDelegate.rb */; };
+		DDCC7A6E135D9339009D099C /* IpaProcessor.rb in Resources */ = {isa = PBXBuildFile; fileRef = DDCC7A6D135D9339009D099C /* IpaProcessor.rb */; };
+		DDCC7A84135DCB18009D099C /* PlistUploader.rb in Resources */ = {isa = PBXBuildFile; fileRef = DDCC7A83135DCB18009D099C /* PlistUploader.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD9CBD37135EF4ED00A00C20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDCC7A35135D81D5009D099C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDCC7A3D135D81D5009D099C;
+			remoteInfo = "One Million Schemes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD14445B13683ECE007F615D /* TwitterNameChecker.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = TwitterNameChecker.rb; sourceTree = "<group>"; };
+		DD87019F139FDF18000940FB /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
+		DD9CBD40135EF9A800A00C20 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = ../../../../../../Library/Frameworks/MacRuby.framework; sourceTree = "<group>"; };
+		DD9CBD44135EFA4A00A00C20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD9CBD50135F097700A00C20 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DD9CBD52135F0D6100A00C20 /* Zwapp_Icons.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Zwapp_Icons.icns; sourceTree = "<group>"; };
+		DDCC7A3E135D81D5009D099C /* One Million Schemes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "One Million Schemes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCC7A42135D81D5009D099C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DDCC7A49135D81D5009D099C /* One Million Schemes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "One Million Schemes-Info.plist"; sourceTree = "<group>"; };
+		DDCC7A4B135D81D5009D099C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDCC7A4D135D81D5009D099C /* One Million Schemes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "One Million Schemes-Prefix.pch"; sourceTree = "<group>"; };
+		DDCC7A4E135D81D6009D099C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDCC7A52135D81D6009D099C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DDCC7A55135D81D6009D099C /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		DDCC7A57135D81D6009D099C /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		DDCC7A6D135D9339009D099C /* IpaProcessor.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = IpaProcessor.rb; sourceTree = "<group>"; };
+		DDCC7A83135DCB18009D099C /* PlistUploader.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = PlistUploader.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDCC7A3B135D81D5009D099C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCC7A43135D81D5009D099C /* Cocoa.framework in Frameworks */,
+				DD9CBD41135EF9A800A00C20 /* MacRuby.framework in Frameworks */,
+				DD9CBD45135EFA4A00A00C20 /* Foundation.framework in Frameworks */,
+				DD9CBD51135F097700A00C20 /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDCC7A33135D81D5009D099C = {
+			isa = PBXGroup;
+			children = (
+				DDCC7A47135D81D5009D099C /* One Million Schemes */,
+				DDCC7A41135D81D5009D099C /* Frameworks */,
+				DDCC7A3F135D81D5009D099C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDCC7A3F135D81D5009D099C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDCC7A3E135D81D5009D099C /* One Million Schemes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDCC7A41135D81D5009D099C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDCC7A42135D81D5009D099C /* Cocoa.framework */,
+				DD9CBD40135EF9A800A00C20 /* MacRuby.framework */,
+				DD9CBD50135F097700A00C20 /* AppKit.framework */,
+				DD9CBD44135EFA4A00A00C20 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDCC7A47135D81D5009D099C /* One Million Schemes */ = {
+			isa = PBXGroup;
+			children = (
+				DDCC7A57135D81D6009D099C /* AppDelegate.rb */,
+				DDCC7A6D135D9339009D099C /* IpaProcessor.rb */,
+				DDCC7A83135DCB18009D099C /* PlistUploader.rb */,
+				DD14445B13683ECE007F615D /* TwitterNameChecker.rb */,
+				DDCC7A50135D81D6009D099C /* Resources */,
+				DDCC7A54135D81D6009D099C /* Other Sources */,
+				DDCC7A48135D81D5009D099C /* Supporting Files */,
+			);
+			path = "One Million Schemes";
+			sourceTree = "<group>";
+		};
+		DDCC7A48135D81D5009D099C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDCC7A49135D81D5009D099C /* One Million Schemes-Info.plist */,
+				DDCC7A4A135D81D5009D099C /* InfoPlist.strings */,
+				DDCC7A4D135D81D5009D099C /* One Million Schemes-Prefix.pch */,
+				DDCC7A4E135D81D6009D099C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDCC7A50135D81D6009D099C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD87019F139FDF18000940FB /* title.png */,
+				DD9CBD52135F0D6100A00C20 /* Zwapp_Icons.icns */,
+				DDCC7A51135D81D6009D099C /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DDCC7A54135D81D6009D099C /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DDCC7A55135D81D6009D099C /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		DDCC7A46135D81D5009D099C /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed --stdlib \"json\"";
+			buildConfigurationList = DDCC7A5E135D81D6009D099C /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			buildWorkingDirectory = "";
+			dependencies = (
+				DD9CBD38135EF4ED00A00C20 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		DDCC7A3D135D81D5009D099C /* One Million Schemes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDCC7A5B135D81D6009D099C /* Build configuration list for PBXNativeTarget "One Million Schemes" */;
+			buildPhases = (
+				DDCC7A3A135D81D5009D099C /* Sources */,
+				DDCC7A3B135D81D5009D099C /* Frameworks */,
+				DDCC7A3C135D81D5009D099C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "One Million Schemes";
+			productName = "One Million Schemes";
+			productReference = DDCC7A3E135D81D5009D099C /* One Million Schemes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDCC7A35135D81D5009D099C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DDCC7A38135D81D5009D099C /* Build configuration list for PBXProject "One Million Schemes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DDCC7A33135D81D5009D099C;
+			productRefGroup = DDCC7A3F135D81D5009D099C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDCC7A3D135D81D5009D099C /* One Million Schemes */,
+				DDCC7A46135D81D5009D099C /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDCC7A3C135D81D5009D099C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCC7A4C135D81D5009D099C /* InfoPlist.strings in Resources */,
+				DDCC7A53135D81D6009D099C /* MainMenu.xib in Resources */,
+				DDCC7A56135D81D6009D099C /* rb_main.rb in Resources */,
+				DDCC7A58135D81D6009D099C /* AppDelegate.rb in Resources */,
+				DDCC7A6E135D9339009D099C /* IpaProcessor.rb in Resources */,
+				DDCC7A84135DCB18009D099C /* PlistUploader.rb in Resources */,
+				DD9CBD53135F0D6100A00C20 /* Zwapp_Icons.icns in Resources */,
+				DD14445C13683ECE007F615D /* TwitterNameChecker.rb in Resources */,
+				DD8701A0139FDF18000940FB /* title.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDCC7A3A135D81D5009D099C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCC7A4F135D81D6009D099C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD9CBD38135EF4ED00A00C20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDCC7A3D135D81D5009D099C /* One Million Schemes */;
+			targetProxy = DD9CBD37135EF4ED00A00C20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDCC7A4A135D81D5009D099C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDCC7A4B135D81D5009D099C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DDCC7A51135D81D6009D099C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDCC7A52135D81D6009D099C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDCC7A59135D81D6009D099C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DDCC7A5A135D81D6009D099C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DDCC7A5C135D81D6009D099C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "One Million Schemes/One Million Schemes-Prefix.pch";
+				INFOPLIST_FILE = "One Million Schemes/One Million Schemes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DDCC7A5D135D81D6009D099C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "One Million Schemes/One Million Schemes-Prefix.pch";
+				INFOPLIST_FILE = "One Million Schemes/One Million Schemes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DDCC7A5F135D81D6009D099C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		DDCC7A60135D81D6009D099C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDCC7A38135D81D5009D099C /* Build configuration list for PBXProject "One Million Schemes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCC7A59135D81D6009D099C /* Debug */,
+				DDCC7A5A135D81D6009D099C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDCC7A5B135D81D6009D099C /* Build configuration list for PBXNativeTarget "One Million Schemes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCC7A5C135D81D6009D099C /* Debug */,
+				DDCC7A5D135D81D6009D099C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDCC7A5E135D81D6009D099C /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCC7A5F135D81D6009D099C /* Debug */,
+				DDCC7A60135D81D6009D099C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDCC7A35135D81D5009D099C /* Project object */;
+}

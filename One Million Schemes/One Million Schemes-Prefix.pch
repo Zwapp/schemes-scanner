@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'One Million Schemes' target in the 'One Million Schemes' project
+//
+
+#ifdef __OBJC__
+  #import <Cocoa/Cocoa.h>
+#endif

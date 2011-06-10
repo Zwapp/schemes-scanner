@@ -8,7 +8,8 @@
 
 class IpaProcessor
   
-  IPA_FILES_DIR = File.expand_path("~/Music/iTunes/Mobile Applications/*.ipa")
+  IPA_FILES_DIRS = [File.expand_path("~/Music/iTunes/Mobile Applications/*.ipa"),
+                    File.expand_path("~/Music/iTunes/iTunes Media/Mobile Applications/*.ipa")]
   
   APP_PLIST_LOCATION    = 'Payload/*.app/Info.plist'
   
@@ -33,7 +34,7 @@ class IpaProcessor
   end
   
   def updateApps(&block)
-    appIpas = Dir[IPA_FILES_DIR]
+    appIpas = IPA_FILES_DIRS.map { |dir| Dir[dir] }.flatten
   
     updateStatus("AppsFound", { :appsCount => appIpas.count })
   

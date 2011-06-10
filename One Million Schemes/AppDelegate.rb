@@ -42,8 +42,12 @@ class AppDelegate
     toggleUIState
     
     IpaProcessor.updateApps do |appList|
-      @recentAppList = appList
-      promptForTwitterName
+      if appList.empty?
+        showNoAppsFoundSheet
+      else
+        @recentAppList = appList
+        promptForTwitterName
+      end
     end
   end
   
@@ -92,6 +96,20 @@ class AppDelegate
         showUploadFailedSheet
       end
     end
+  end
+  
+  def showNoAppsFoundSheet
+    alert = NSAlert.alertWithMessageText("Sorry but we couldn't find any apps",
+                                         defaultButton: nil,
+                                         alternateButton: nil,
+                                         otherButton: nil,
+                                         informativeTextWithFormat: "Sadly we couldn't find any apps in the standard iTunes directory path, have your syncd your iOS device with this computer? If you have, please email contact@zwapp.com so we can improve the scanner.")
+    
+    alert.beginSheetModalForWindow(self.window, modalDelegate:self, didEndSelector:"noAppsFoundAlertDidEnd:returnCode:contextInfo:", contextInfo:nil)
+  end
+  
+  def noAppsFoundAlertDidEnd(alert, returnCode: returnCode, contextInfo: contextInfo)
+    resetUI
   end
   
   def showUploadFailedSheet
